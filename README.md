@@ -59,6 +59,15 @@ Example:
 {"source": "./schemas/"}
 ```
 
+### SchemaSuffix [json]
+File suffix to select into Source. The default is json `.json` extension.
+
+Exemple: 
+```json
+{"schemaSuffix": "schema.json"}
+```
+If your schema file has schema.json suffix.
+
 ### Target [./web/]
 This is the output folder where Matic will generate the resulting HTML files. This folder will be created automatically, if it does not exist.
 
